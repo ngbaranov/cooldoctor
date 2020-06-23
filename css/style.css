@@ -111,10 +111,10 @@ color: #ffffff;}
     transform: scale(1);}
     
     .main-promo {
-        display: block;
+        position: relative; 
         max-width: 450px;
         margin-left: 200px;
-        margin-top: 60px;
+        margin-top: 150px;
     }
     
     .main-promo-title {
@@ -127,4 +127,18 @@ color: #ffffff;}
     
         margin-top: 15px;
         margin-bottom: 0px;
+    }
+
+    .main-buttom {
+        position: absolute;
+        right: 0;
+    }
+
+    @media screen and (max-width: 1000px) {
+        .main-promo {
+            position: relative; 
+            max-width: 450px;
+            margin-left: 0px;
+            margin-top:  50px;
+        }
     }
