@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|PT+Sans');
+
+body {
+        min-width: 32px;
+        font-size: 18px;
+        font-family: "PT Sans", sans-serif;
+        color: #0877f3;
+    }
+
+h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+
+}
+
+h3 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+margin-top: 15px;
+border: 2px solid white;
+padding: 2px 20px;
+border-radius: 10px;
+text-decoration: none;
+font-size: 20px;
+color: white;}
+
+.buttom:hover {
+display: inline-block;
+background: #ffffff;
+margin-top: 15px;
+border: 2px solid #0877f3;
+padding: 2px 20px;
+border-radius: 10px;
+text-decoration: none;
+font-size: 20px;
+color: #0877f3;}
+
+.buttom-blue {
+
+display: inline-block;
+width: 130px;
+text-align: center;
+border: 2px solid #0877f3;
+padding: 2px 0px;
+border-radius: 15px;
+text-decoration: none;
+font-size: 20px;
+color: #0877f3;
+}
+
+.buttom-blue:hover {
+display: inline-block;
+background: #0877f3;
+margin-top: 15px;
+border: 2px solid #0877f3;
+padding: 2px 0px;
+border-radius: 15px;
+text-decoration: none;
+font-size: 20px;
+color: #ffffff;}
+
+
+/* header */
+
+.main-header {
+    background: url(/img/fonheader.jpg) center no-repeat;
+    background-size: cover;
+    height: 100vh;
+    min-height: 600px;
+    position: relative;
+}
+
+.main-header ul li a {
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+     
+}
+
+.main-header ul li a::after{
+	content: '';
+	display: block;
+	width: 100%;
+	background-color: #fff;
+	height: 1px;
+	transform: scale(0);
+	transition: all .3s;
+}
+.main-header ul li a:hover::after{
+	transform: scale(1);}
