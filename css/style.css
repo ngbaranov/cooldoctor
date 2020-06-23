@@ -7,6 +7,13 @@ body {
         color: #0877f3;
     }
 
+h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 28px;
+}
+
+
+
 h2 {
     font-family: "Montserrat", sans-serif;
     font-size: 24px;
@@ -25,13 +32,17 @@ img {
     height: auto;
 }
 
-margin-top: 15px;
-border: 2px solid white;
-padding: 2px 20px;
-border-radius: 10px;
-text-decoration: none;
-font-size: 20px;
-color: white;}
+.buttom {
+    display: inline-block;
+    margin-top: 15px;
+    border: 2px solid white;
+    padding: 2px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+     
+}
 
 .buttom:hover {
 display: inline-block;
@@ -77,6 +88,7 @@ color: #ffffff;}
     height: 100vh;
     min-height: 600px;
     position: relative;
+    color: #ffffff;
 }
 
 .main-header ul li a {
@@ -96,4 +108,23 @@ color: #ffffff;}
 	transition: all .3s;
 }
 .main-header ul li a:hover::after{
-	transform: scale(1);}
+    transform: scale(1);}
+    
+    .main-promo {
+        display: block;
+        max-width: 450px;
+        margin-left: 200px;
+        margin-top: 60px;
+    }
+    
+    .main-promo-title {
+        font-family: "Montserrat", sans-serif;
+        font-size: 26px;
+        margin: 0;
+    }
+    
+    .main-promo-text {
+    
+        margin-top: 15px;
+        margin-bottom: 0px;
+    }
