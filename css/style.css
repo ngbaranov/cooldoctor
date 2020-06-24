@@ -29,6 +29,9 @@ h3 {
 
 ul {
     list-style: none;
+    margin: 0;
+    padding-left: 0;
+    
 }
 
 img {
@@ -90,7 +93,7 @@ color: #ffffff;}
     background: url(/img/fonheader.jpg) center no-repeat;
     background-size: cover;
     height: 100vh;
-    min-height: 600px;
+    min-height: 300px;
     position: relative;
     color: #ffffff;
 }
@@ -114,40 +117,37 @@ color: #ffffff;}
 .main-header ul li a:hover::after{
     transform: scale(1);}
     
-    .main-promo {
-        position: relative; 
-        max-width: 450px;
-        margin-left: 200px;
-        margin-top: 150px;
-    }
-    
-    .main-promo-title {
-        font-family: "Montserrat", sans-serif;
-        font-size: 26px;
-        margin: 0;
-    }
-    
-    .main-promo-text {
-    
-        margin-top: 15px;
-        margin-bottom: 0px;
-    }
+.main-promo {
+    position: relative; 
+    max-width: 450px;
+    margin-left: 200px;
+    margin-top: 150px;
+}
 
-    .main-buttom {
-         margin-left: 15.5em;
-          
-    }
+.main-promo-title {
+    font-family: "Montserrat", sans-serif;
+    font-size: 26px;
+    margin: 0;
+}
 
-    @media screen and (max-width: 1000px) {
-        .main-promo {
-            position: relative; 
-            max-width: 450px;
-            margin-left: 0px;
-            margin-top:  50px;
-        }
-    }
+.main-promo-text {
 
- 
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+.main-buttom {
+        margin-left: 15.5em;
+        
+}
+
+
+
+.menu-bottom {
+    width: 80%;
+    position: absolute;
+    bottom: 0px;
+}
 
 .menu-bottom li{
     float: left;
@@ -157,6 +157,7 @@ color: #ffffff;}
     border-top: 1px solid rgba(14,98,185,1);
     text-align: center;
     line-height: 3em;
+    list-style: none;
     margin: 0;
     
 }
@@ -180,4 +181,25 @@ color: #ffffff;}
 .menu-bottom li a:hover{
     color: blue;
 }
+
+@media screen and (max-width: 1000px) {
+    .main-promo {
+        position: relative; 
+        max-width: 450px;
+        margin-left: 0px;
+        margin-top:  50px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .main-promo {
+        position: relative; 
+        max-width: 450px;
+        margin-left: 0px;
+        margin-top:  50px;
+    }
+
+}
+
+
     
