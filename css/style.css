@@ -27,6 +27,10 @@ h3 {
     font-weight: bold;
 }
 
+ul {
+    list-style: none;
+}
+
 img {
     width: 100%;
     height: auto;
@@ -130,8 +134,8 @@ color: #ffffff;}
     }
 
     .main-buttom {
-        position: absolute;
-        right: 0;
+         margin-left: 15.5em;
+          
     }
 
     @media screen and (max-width: 1000px) {
@@ -142,3 +146,38 @@ color: #ffffff;}
             margin-top:  50px;
         }
     }
+
+ 
+
+.menu-bottom li{
+    float: left;
+    width: 25%;
+    background: linear-gradient(90deg, rgba(103,165,244,1) 0%, rgba(14,98,185,1) 100%);
+    height:3em;
+    border-top: 1px solid rgba(14,98,185,1);
+    text-align: center;
+    line-height: 3em;
+    margin: 0;
+    
+}
+.menu-bottom li a {
+    display: block;
+    height: 3em;
+}
+
+.menu-bottom li:hover {
+    float: left;
+    width: 25%;
+    background: #ffffff;
+    height:3em;
+    border-top: 1px solid rgba(14,98,185,1);
+    text-align: center;
+    line-height: 3em;
+    margin: 0;
+
+}
+
+.menu-bottom li a:hover{
+    color: blue;
+}
+    
